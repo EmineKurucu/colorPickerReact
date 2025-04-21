@@ -42,7 +42,7 @@ const SelectableBox = ({ index, isSelected, onClick, ...props }) => {
             onClick={() => onClick(index)} 
             style={{ 
                 cursor: "pointer",
-                outline: isSelected ? "3px solid #00BFFF" : "none",
+                outline: isSelected ? "3px solid rgb(255,0,0)" : "none",
                 zIndex: isSelected ? 1 : "auto"
             }}
         >
@@ -58,7 +58,7 @@ const SelectableHeight40Beige = ({ index, isSelected, onClick, ...props }) => {
             onClick={() => onClick(index, "height40")} 
             style={{ 
                 cursor: "pointer",
-                outline: isSelected ? "3px solid #00BFFF" : "none",
+                outline: isSelected ? "3px solid rgb(255,0,0)" : "none",
                 zIndex: isSelected ? 1 : "auto"
             }}
         >
@@ -73,7 +73,7 @@ const SelectableWidth40Beige = ({ index, isSelected, onClick, ...props }) => {
             onClick={() => onClick(index, "width40")} 
             style={{ 
                 cursor: "pointer",
-                outline: isSelected ? "3px solid #00BFFF" : "none",
+                outline: isSelected ? "3px solid rgb(255, 0, 0)" : "none",
                 zIndex: isSelected ? 1 : "auto"
             }}
         >
